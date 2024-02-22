@@ -23,6 +23,9 @@ Your users should be able to:
 
 Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
 
+- Solution URL: [Add solution URL here](https://github.com/Dhruvmehta1311/Clipboard-Landing-Page)
+- Live Site URL: [Add live site URL here](https://clipboard-landing-page-eta-rouge.vercel.app/)
+
 ## Where to find everything
 
 Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
