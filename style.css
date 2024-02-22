@@ -101,6 +101,7 @@ body {
   width: 100%;
   /* background-color: green; */
   display: flex;
+  margin-top: 6rem;
 }
 
 #left-image {
