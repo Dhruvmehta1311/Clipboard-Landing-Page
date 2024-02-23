@@ -105,13 +105,13 @@ body {
 }
 
 #left-image {
-  height: 80%;
-  width: 50%;
-  /* background-color: red; */
+  height: 50%; /* Adjust the height as per your design */
+  width: 100%; /* Change the width to 100% */
   background-image: url(./images/image-computer.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-size: contain;
+  background-position: top;
+  margin-top: 5rem; /* Adjust margin-top as needed */
 }
 
 #right-content {
@@ -307,20 +307,20 @@ p {
     color: rgba(0, 0, 0, 0.349);
   }
   #page2 {
-    height: 100%;
+    height: 160%;
     width: 100%;
-    /* background-color: green; */
     display: flex;
-    /* margin-top: 2rem; */
     flex-direction: column;
+    /* background-color: green; */
   }
   #left-image {
     background-image: url(./images/image-computer.png);
-    height: 30%; /* Adjust the height as per your design */
+    height: 50%; /* Adjust the height as per your design */
     width: 100%;
     background-position: top; /* Adjust the background position */
     background-size: contain; /* Adjust the background size */
-    margin-top: 1rem;
+    margin-top: 5rem;
+    /* background-color: red; */
   }
   
 
@@ -335,7 +335,6 @@ p {
   #part1 p {
     font-size: 0.8rem;
     margin-top: 4rem;
-    /* margin-right: 0.3rem; */
   }
   #part3 h1 {
     font-size: 1.6rem;
@@ -348,13 +347,12 @@ p {
   }
   #page3 {
     margin-top: 2rem;
-    /* background-color: red; */
     height: 50%;
     background-size: 45rem;
-    height: 50%; /* Adjust the height as per your design */
+    height: 50%; 
     width: 100%;
-    background-position: top; /* Adjust the background position */
-    background-size: contain; /* Adjust the background size */
+    background-position: top;
+    background-size: contain; 
     margin-top: 1rem;
   }
 
@@ -364,7 +362,6 @@ p {
     padding: 1rem 1rem;
   }
   #company-logos {
-    /* background-color: red; */
     margin-top: 5rem;
     padding: 2rem;
     display: flex;
@@ -374,7 +371,7 @@ p {
 
   #company-logos img {
     height: 2rem;
-    /* padding: 1rem 1rem; */
+
   }
 
   #logo {
@@ -597,9 +594,7 @@ p {
     /* background-color: blue; */
     width: 100%;
   }
-
-
-
-
 }
+
+
 
