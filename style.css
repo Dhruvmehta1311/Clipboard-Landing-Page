@@ -456,8 +456,8 @@ p {
   }
   #company-logos {
     /* background-color: red; */
-    margin-top: 5rem;
-    padding: 2rem;
+    margin-top: 1rem;
+    padding: 0 2rem;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -470,18 +470,19 @@ p {
 
 
   #footer {
-    height: 20%;
+    height: 15%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.034);
     margin-top: 5rem;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
   }
   
   #logo {
+    display: none;
     width: 100%;
-    height: 50%;
+    height: 30%;
     /* background-color: green; */
     background-image: url(./images/logo.svg);
     background-repeat: no-repeat;
@@ -517,6 +518,67 @@ p {
   
   #social-logos a {
     margin-left: 1rem;
+  }
+
+  #hero {
+    height: 30%;
+    width: 100%;
+    /* margin-top: 0.5rem; */
+    /* background-color: green; */
+  }
+
+  #hero h1 {
+    font-size: 2.3rem;
+    color: rgba(0, 0, 0, 0.67);
+  }
+
+  #hero p {
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.349);
+  }
+
+  #page3 {
+    /* background-color: red; */
+    height: 30%;
+    background-size: 45rem;
+    height: 30%; /* Adjust the height as per your design */
+    width: 100%;
+    background-position: top; /* Adjust the background position */
+    background-size: contain; /* Adjust the background size */
+    margin-top: 4rem;
+  }
+
+  #left-image {
+    background-image: url(./images/image-computer.png);
+    height: 50%; /* Adjust the height as per your design */
+    width: 100%;
+    background-position: top; /* Adjust the background position */
+    background-size: contain; /* Adjust the background size */
+    margin-top: 5rem;
+  }
+
+  #part3 p {
+    font-size: 0.8rem;
+    margin-top: 2rem;
+  }
+  #part2 p {
+    margin-top: 2rem;
+    font-size: 0.8rem;
+  }
+  #part1 p {
+    font-size: 0.8rem;
+    margin-top: 2rem;
+    margin-right: 0.3rem;
+  }
+  #part3 h1 {
+    font-size: 1.6rem;
+  }
+  #part2 h1 {
+    font-size: 1.6rem;
+  }
+  #part1 h1 {
+    font-size: 1.6rem;
   }
 
 
