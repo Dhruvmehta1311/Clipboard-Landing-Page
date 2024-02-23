@@ -414,7 +414,7 @@ p {
   #page4 {
     height: 55%;
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content: space-around;
