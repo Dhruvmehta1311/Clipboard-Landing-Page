@@ -116,10 +116,11 @@ body {
 
 #right-content {
   height: 80%;
-  width: 30%;
+  width: 100%;
   margin-left: 6rem;
   /* background-color: green; */
   margin-top: 2rem;
+  text-align: left;
 }
 
 #right-content h1 {
